@@ -7,7 +7,7 @@ using System.Linq;
 
 namespace UnattendedServer
 {
-    [BepInPlugin("com.dan.sbg.unattended", "Unattended Server", "1.0")]
+    [BepInPlugin("com.kingcox22.sbg.unattended", "Unattended Server", "1.0")]
     public class UnattendedServerPlugin : BaseUnityPlugin
     {
         private static ConfigEntry<float> _configStartDelay;
@@ -21,7 +21,7 @@ namespace UnattendedServer
             _configStartDelay = Config.Bind("General", "Start Delay", 60f, "Lobby wait time.");
             _configHoleCount = Config.Bind("Match Settings", "Hole Count", 9, "Total holes.");
 
-            var harmony = new Harmony("com.dan.sbg.unattended");
+            var harmony = new Harmony("com.kingcox22.sbg.unattended");
             harmony.PatchAll();
             Logger.LogInfo("Unattended Server v1.0 Initialized.");
         }
