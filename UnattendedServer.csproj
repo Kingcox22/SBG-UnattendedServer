@@ -2,8 +2,8 @@
 
     <PropertyGroup>
         <TargetFramework>netstandard2.1</TargetFramework>
-        <AssemblyName>UnattendedServer</AssemblyName>
-        <Product>Unattended Server</Product>
+        <AssemblyName>SBG-UnattendedServer</AssemblyName>
+        <Product>Super Battle Golf Unattended Server</Product>
         <Version>1.0</Version>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
         <LangVersion>latest</LangVersion>
