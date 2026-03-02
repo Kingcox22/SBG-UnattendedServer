@@ -1,5 +1,5 @@
 # Unattended Server
-#### _A BepInEx5 mod to increase the player limit of Super Battle Golf_
+#### _A BepInEx5 mod to Automate starting matches in Super Battle Golf_
 
 # TO-DO
 #### Add configurations to set number of holes and set courses. Right now it is always 27 holes in order.
@@ -15,5 +15,6 @@
 ```sh
 dotnet build
 ```
+
 
 
