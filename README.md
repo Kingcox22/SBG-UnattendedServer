@@ -2,6 +2,7 @@
 #### _A BepInEx5 mod to Automate starting matches in Super Battle Golf_
 
 # TO-DO
+#### Re-add automatic messaging at 60 seconds and 10 seconds remaining on the countdown.
 #### Add configurations to set number of holes and set courses. Right now it is always 27 holes in order.
 
 ## Installation
@@ -15,6 +16,7 @@
 ```sh
 dotnet build
 ```
+
 
 
 
